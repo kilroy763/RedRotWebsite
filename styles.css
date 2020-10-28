@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+}
+
+body{
+    background-color:#222324;
+}
+
+#background{
+    max-width: 100%;
+
+}
+
+path {
+    fill: white;
+   
+  
+    
+}
+.img-overlay-wrap {
+    position: relative;
+    display: inline-block; /* <= shrinks container to image size */
+    transition: transform 150ms ease-in-out;
+  }
+  
+  .img-overlay-wrap img { /* <= optional, for responsiveness */
+     display: block;
+     width: 100%;
+     height: 750px;
+     object-fit: cover;
+     
+  }
+  
+ 
+  @media screen and (min-width: 600px) {
+    .img-overlay-wrap svg {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+        width: 10%;
+        transform: translate(0px,-275px);
+      }
+
+  .headline {
+      font-weight: bold;
+      font-size: 48px;
+      text-align: center;
+      transform: translate(0px,-75px);
+  }
+
+  .inleiding{
+      margin-top: 2%;
+      height: 400px;
+    }
+
+  .een{
+     
+    float: left;
+    width: 30%;
+    margin-left: 15%;
+    height: 300px;
+    margin-right: 5%;
+
+  }
+
+  .twee{
+ 
+    float: right;
+    width: 30%;
+    margin-right: 15%;
+    margin-left: 5%;
+  }
+
+  .drie{
+      float: right;
+      width: 30%;
+      margin-right: 15%;
+    margin-left: 5%;
+      margin-top: 20px;
+  }
+
+  h3{
+      text-align: center;
+      padding: 10px;
+      margin-top: 5%;
+  }
+
+  .ondertekst{
+      text-align: center;
+      padding: 10px;
+     
+  }
+
+
+
+.probeer{
+    padding-top: 10%;
+}
+.gallery{
+    margin-top: 5%;
+}
+  
+  .gallery-cell {
+    width: 90%;
+    height: 500px;
+    margin-right: 10px;
+    counter-increment: gallery-cell;
+  }
+  
+  /* cell number */
+  .gallery-cell:before {
+    display: block;
+    text-align: center;
+    line-height: 200px;
+    font-size: 80px;
+
+  }
+
+  .fototekst{
+      margin-left: 30%;
+      margin-top: 1%;
+      display: inline-block;
+      bottom: 50%;
+      height: 100%;
+      vertical-align: middle;
+      margin-right: 5%;
+      
+  }
+
+  .auto{
+      width: 300px;
+      height: 400px;
+      object-fit: cover;
+     display: inline-block;
+  }
+
+  .flickity-prev-next-button {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    background: #333;
+  }
+  .flickity-prev-next-button:hover {
+    background: black;
+  }
+  /* arrow color */
+  .flickity-prev-next-button .arrow {
+    fill: white;
+  }
+  .flickity-prev-next-button.no-svg {
+    color: white;
+  }
+  /* position outside */
+  .flickity-prev-next-button.previous {
+    left: 250px;
+  }
+  .flickity-prev-next-button.next {
+    right: 250px;
+  }
+
+.flickity-page-dots{
+    bottom: 75px;
+} 
+
+footer{
+    margin-left: 20%;
+}
+
+
+
+    }
+    @media screen and (max-width: 600px) {
+
+
+
+    .headline {
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+        transform: translate(0px,-75px);
+    }
+
+    .img-overlay-wrap svg {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+        width: 25%;
+        
+        transform: translate(0px,-300px);
+      }
+      h3{
+          text-align: center;
+      }
+      .ondertekst{
+          padding: 5%;
+          text-align: center;
+      }
+      .een, .twee, .drie{
+          padding: 5%;
+      }
+      .probeer{
+          margin-top: 20%;
+      }
+
+
+
+      .gallery{
+        margin-top: 5%;
+        margin-bottom: 20%;
+    }
+      
+      .gallery-cell {
+        width: 100%;
+        height: auto;
+        margin-right: 10px;
+        counter-increment: gallery-cell;
+      }
+      
+      /* cell number */
+      .gallery-cell:before {
+        display: block;
+        text-align: center;
+        line-height: 200px;
+        font-size: 80px;
+    
+      }
+    
+      .fototekst{
+        text-align: center;
+          margin-top: 1%;
+       
+          
+      }
+    
+      .auto{
+          width: 300px;
+          height: 400px;
+          object-fit: cover;
+          display: block;
+          margin-top: 10%;
+      
+          margin-left: auto;
+            margin-right: auto;
+        
+      }
+    
+      .flickity-prev-next-button {
+        width: 30px;
+        height: 30px;
+        border-radius: 10px;
+        background: #333;
+      }
+      .flickity-prev-next-button:hover {
+        background: black;
+      }
+      /* arrow color */
+      .flickity-prev-next-button .arrow {
+        fill: white;
+      }
+      .flickity-prev-next-button.no-svg {
+        color: white;
+      }
+      /* position outside */
+      .flickity-prev-next-button.previous {
+        left: 10px;
+      }
+      .flickity-prev-next-button.next {
+        right: 10px;
+      }
+    
+    .flickity-page-dots{
+        bottom: -50px;
+    } 
+
+    footer{
+        text-align: center;
+
+    }
+
+    footer h2{
+        padding: 10%;
+    }
+    }
