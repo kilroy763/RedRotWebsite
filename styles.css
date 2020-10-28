@@ -9,6 +9,12 @@ body{
     background-color:#222324;
 }
 
+a{
+  text-decoration: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
 #background{
     max-width: 100%;
 
