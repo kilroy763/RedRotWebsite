@@ -24,6 +24,7 @@ path {
     position: relative;
     display: inline-block; /* <= shrinks container to image size */
     transition: transform 150ms ease-in-out;
+   
   }
   
   .img-overlay-wrap img { /* <= optional, for responsiveness */
@@ -33,6 +34,8 @@ path {
      object-fit: cover;
      
   }
+
+
   
  
   @media screen and (min-width: 600px) {
@@ -45,8 +48,12 @@ path {
         text-align: center;
         width: 10%;
         transform: translate(0px,-275px);
+     
+          
+          
       }
 
+   
   .headline {
       font-weight: bold;
       font-size: 48px;
@@ -100,7 +107,7 @@ path {
 
 
 .probeer{
-    padding-top: 10%;
+    padding-top: 0%;
 }
 .gallery{
     margin-top: 5%;
@@ -170,6 +177,19 @@ path {
 
 footer{
     margin-left: 20%;
+   
+}
+
+footer p {
+    display: inline-block;
+}
+
+iframe{
+    display: inline-block;
+    margin-left: 25%;
+    width: 400px;
+    height: 400px;
+    margin-bottom: 3%;
 }
 
 
@@ -288,5 +308,10 @@ footer{
 
     footer h2{
         padding: 10%;
+    }
+
+    iframe{
+        width: 350px;
+        height: 350px;
     }
     }
