@@ -543,7 +543,8 @@ iframe{
     iframe{
         width: 325px;
         height: 325px;
-    
+        margin-left: 0%;
+        margin-bottom: 10%;
     }
     
     .overlay {
@@ -641,5 +642,6 @@ iframe{
 iframe{
   width: 70%;
   height: 50%;
+  margin-bottom: 10%;
 }
 }
