@@ -559,6 +559,8 @@ iframe{
       overflow-x: hidden;
       
     }
+
+   
     
     .overlay-content {
       position: relative;
@@ -599,7 +601,7 @@ iframe{
     }
 
     .overlay h3{
-      margin-top: 10%;
+      margin-top: 30%;
       padding: 10%;
     }
 
